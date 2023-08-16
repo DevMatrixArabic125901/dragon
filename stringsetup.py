@@ -1,21 +1,24 @@
-#!/usr/bin/env python3
-# (c) https://t.me/TelethonChat/37677
-# This Source Code Form is subject to the terms of the GNU
-# General Public License, v.3.0. If a copy of the GPL was not distributed with this
-# file, You can obtain one at https://www.gnu.org/licenses/gpl-3.0.en.html.
+import asyncio
+from pyrogram import Client
 
-from telethon.sessions import StringSession
-from telethon.sync import TelegramClient
 
-print(
-    """Please go-to my.telegram.org
-Login using your Telegram account
-Click on API Development Tools
-Create a new application, by entering the required details"""
-)
-APP_ID = int(input("Enter API ID here: "))
-API_HASH = input("Enter API HASH here: ")
+async def main():
+    print("- DraGo Session Pyrogram -")
+    print("\n---------------------------\n")
+    api_id = int(input("APP ID: "))
+    api_hash = input("API HASH: ")
+    print("\n---------------------------\n")
+    async with Client(":memory:", api_id=api_id, api_hash=api_hash) as app:
+        await app.send_message(
+            "me",
+            "**كود سيشن البايروجرام**:\n\n"
+            f"`{await app.export_session_string()}`"
+        )
+        print(
+            "تم بنجاح أستخراج كود سيشن البايروجرام"
+            "ستجد الكود في الرسائل المحفوظة في التليجرام"
+        )
 
-with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
-    print(client.session.save())
-    client.send_message("me", client.session.save())
+if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
