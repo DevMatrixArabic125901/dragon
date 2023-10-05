@@ -1,5 +1,6 @@
 {
   "name": "᥀︙سـورس ماتـركس العـربي︙᥀",
+  "logo": "https://telegra.ph/file/7393bd7f67494976a5b10.jpg",
   "description": "᥀︙اهلاً بك في رابط تنصيب سورس ماتركس العربي︙᥀",
   "keywords": [
     "plugin",
@@ -7,7 +8,7 @@
     "productivity"
   ],
   "repository": "https://github.com/qithoniq/dragon/",
-  "website": "#TODO",
+  "website": "Europe",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
