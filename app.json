@@ -8,7 +8,8 @@
     "productivity"
   ],
   "repository": "https://github.com/qithoniq/dragon/",
-  "website": "Europe",
+  "region": "Europe"
+  "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
