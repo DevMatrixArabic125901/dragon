@@ -1,4 +1,9 @@
 Telethon==1.25.2
+pyrogram==2.0.97
+pyromod==1.5
+TgCrypto
+rich==13.3.1
+datetime
 selenium
 setuptools
 wheel
