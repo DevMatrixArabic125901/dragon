@@ -1,7 +1,7 @@
 {
-  "name": "᥀︙سـورس ماتـركس العـربي︙᥀",
-  "logo": "https://telegra.ph/file/7393bd7f67494976a5b10.jpg",
-  "description": "᥀︙اهلاً بك في رابط تنصيب سورس ماتركس العربي︙᥀",
+  "name": "MaTrix Arabic 1.2",
+  "logo": "https://telegra.ph/file/8fbf28082b7e0e3148319.jpg",
+  "description": "↯︙اهلاً بك في رابط تنصيب سورس ماتركس العربي︙↯",
   "keywords": [
     "plugin",
     "modular",
@@ -12,45 +12,45 @@
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "᥀︙هنا ضع اسم التلجرام الخاص بك︙᥀",
+      "description": "↯︙هنا ضع اسم التلجرام الخاص بك︙↯",
       "value": ""
     },
     "APP_ID": {
-      "description": "᥀︙هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام︙᥀", 
+      "description": "↯︙هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام︙↯", 
       "value": ""
     },
     "API_HASH": {
-      "description": "᥀︙هنا ضع الايبي هاش الخاص بك︙᥀",
+      "description": "↯︙هنا ضع الايبي هاش الخاص بك︙↯",
       "value": ""
     },
     "ENV": {
-      "description": "᥀︙لا تغير هذه القيمه︙᥀",
+      "description": "↯︙لا تغير هذه القيمه︙↯",
       "value": "ANYTHING"
     },
     "STRING_SESSION": {
-      "description": "᥀︙هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك︙᥀",
+      "description": "↯︙هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك︙↯",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "᥀︙هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account︙᥀",
+      "description": "↯︙هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account︙↯",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "᥀︙اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره︙᥀",
+      "description": "↯︙اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره︙↯",
       "value": "",
       "required": false
     },
     "TG_BOT_USERNAME": {
-      "description": "᥀︙هنا ضع معرف بوتك بدون @︙᥀",
+      "description": "↯︙هنا ضع معرف بوتك بدون @︙↯",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "᥀︙هنا ضع توكن بوتك الذي صنعته︙᥀",
+      "description": "↯︙هنا ضع توكن بوتك الذي صنعته︙↯",
       "value": ""
     },
     "TZ": {
-      "description": "᥀︙المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير︙᥀",
+      "description": "↯︙المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير︙↯",
       "value": "Asia/Baghdad",
       "required": false
     }
